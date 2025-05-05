@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet, FlatList, SafeAreaView, TextInput } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { renderStars, calculateAverageRating, mentors } from './mentor';
+import { renderStars, calculateAverageRating, mentors } from '../mentor';
 
 const MentorListScreen = ({ navigation }) => {
     const [searchQuery, setSearchQuery] = useState('');

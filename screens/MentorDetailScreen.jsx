@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet, ScrollView, SafeAreaView, FlatList, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { renderStars, calculateAverageRating } from './mentor';
+import { renderStars, calculateAverageRating } from '../mentor';
 
 const MentorDetailScreen = ({ route }) => {
     const { mentor } = route.params;

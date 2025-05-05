@@ -2,8 +2,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import MentorListScreen from './MentorListScreen';
-import MentorDetailScreen from './MentorDetailScreen';
+import MentorListScreen from './screens/MentorListScreen';
+import MentorDetailScreen from './screens/MentorDetailScreen';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const Stack = createStackNavigator();
